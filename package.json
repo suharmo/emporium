@@ -13,5 +13,8 @@
     "bootstrap": "^4.3.0",
     "npm": "^6.7.0",
     "sass": "^1.17.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.1"
   }
 }

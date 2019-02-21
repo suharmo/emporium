@@ -1,0 +1,95 @@
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss'
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss'
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss'
+@import '../sass/_variables.sass'
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
+@import 'https://fonts.googleapis.com/css?family=Poppins'
+
+body 
+    font-family: 'Poppins', sans-serif
+header
+    h1
+        font-family: $kanit
+#intro
+    background: $creame
+.text-velvet
+    color: $velvet
+.bg-velvet
+    background: $velvet
+.btn-velvet
+    background: $velvet
+    color: white
+.bg-lightGray
+    background: lightgray
+.kanit
+    font-family: $kanit
+.sp
+    text-decoration: line-through
+.cardB
+    position: absolute
+#carousel 
+    perspective: 1200px
+    padding-top: 9%
+    overflow: hidden
+    width: 100%
+    height: 75vh
+#spinner
+    transform-style: preserve-3d
+    height: 300px
+    transform-origin: 45% 10% -652px
+    transition: 1s
+.main
+    width: 40%
+    max-width: 425px
+    position: absolute
+    left: 30%
+    transform-origin: 64% 50% -613px
+    outline: 1px solid transparent
+.nt1
+    transform: rotateY(0deg)
+.nt2
+    transform: rotateY(-45deg)
+.nt3
+    transform: rotateY(-90deg)
+.nt4
+    transform: rotateY(-135deg)
+.nt5
+    transform: rotateY(-180deg)
+.nt6
+    transform: rotateY(-225deg)
+.nt7
+    transform: rotateY(-270deg)
+.nt8
+    transform: rotateY(-315deg)
+.arrowL
+    float: left
+    cursor: pointer
+    padding-top: 16%
+    font-size: 50px
+.arrowR
+    float: right
+    cursor: pointer
+    font-size: 50px
+.boit
+    position: absolute
+    right: 0
+    left: 0
+    opacity: 0
+    display: flex
+.boite
+    position: relative
+.boite:hover
+    .boit
+        transition: 0.5s
+        opacity: 1
+.shadeDown
+    background: -webkit-linear-gradient(#1b1e20,  #c55a59)
+    opacity: 0
+    height: 0
+    overflow: hidden
+.prod
+    border-radius: 0!important
+.secondary
+    color: darkgray!important
+.dark
+    color: #343a40
